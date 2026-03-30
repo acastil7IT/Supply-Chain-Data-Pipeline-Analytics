@@ -1,32 +1,76 @@
-# Supply Chain Analytics Dashboard
+# Supply Chain Data Pipeline and Analytics (Snowflake)
 
 ## Overview
-Built an end to end data pipeline and dashboard to analyze supply chain data including suppliers, products, warehouses, and inventory transactions.
+This project focuses on building a supply chain analytics solution using Snowflake to analyze inventory transactions, suppliers, products, and warehouse data. The goal was to take raw CSV files and organize them into a structured format that supports reporting and analysis.
+
+---
 
 ## Architecture
-CSV Files → AWS S3 → Fivetran → AWS RDS PostgreSQL → Power BI
+CSV Files → AWS S3 → Snowflake → Power BI
+
+---
+
+## Data Model
+The dataset is organized using fact and dimension tables:
+
+- fact_inventory_transactions – inventory movements including receipts and returns  
+- dim_product – product information  
+- dim_supplier – supplier details such as region and tier  
+- dim_warehouse – warehouse locations  
+
+---
+
+## What I Built
+- Loaded CSV data from AWS S3 into Snowflake tables  
+- Created structured tables for both fact and dimension data  
+- Wrote SQL queries to join and transform data  
+- Built views to simplify reporting and analysis  
+- Connected Snowflake to Power BI for dashboard creation  
+
+---
 
 ## Dashboard Preview
 
 ### Cost Distribution by Product Category
-![Cost Distribution](images/cost distribution by product.png)
+![Cost Distribution](cost distribution by product.png)
 
 ### Total Cost by Product Category
-![Cost by Category](images/cost by category.png)
+![Cost by Category](cost by category.png)
 
 ### Total Cost Trend Over Time
-![Cost Trend](images/total cost trend over time.png)
+![Cost Trend](total cost trend over time.png)
 
-## Data Source (AWS S3)
-![AWS S3 Bucket](images/aws s3 bucket.png)
+---
+
+## Data Source
+![AWS S3 Bucket](aws s3 bucket.png)
+
+---
 
 ## Key Insights
 - Most inventory activity is driven by receipts rather than returns  
-- Certain suppliers contribute significantly more inventory than others  
-- Inventory movement varies by warehouse location  
-- Product demand is concentrated in specific warehouses  
+- A small number of suppliers contribute most of the inventory volume  
+- Warehouse activity varies depending on location  
+- Product movement is concentrated in specific warehouses  
 
-## Tools Used
-- AWS (S3, RDS PostgreSQL, IAM)  
-- Fivetran  
+---
+
+## Tools and Technologies
+- Snowflake  
+- AWS S3  
+- SQL  
 - Power BI  
+
+---
+
+## Skills Demonstrated
+- Data warehousing and cloud data storage  
+- SQL querying and data transformation  
+- Fact and dimension table design  
+- Data integration between AWS and Snowflake  
+- Dashboard development in Power BI  
+
+---
+
+## Summary
+This project demonstrates how raw supply chain data can be transformed into a structured data model and used to generate insights through dashboards. It highlights experience with cloud data platforms, data modeling, and reporting.
