@@ -1,1 +1,7 @@
-
+warehouse_id,warehouse_name,city,state,region,capacity_units,active
+WH01,Monroe Distribution Center,Monroe,MI,Midwest,50000,Yes
+WH02,Newton Distribution Center,Newton,MS,South,35000,Yes
+WH03,Dayton Hub,Dayton,OH,Midwest,22000,Yes
+WH04,Dallas Regional Center,Dallas,TX,South,28000,Yes
+WH05,Ontario West Hub,Ontario,CA,West,20000,Yes
+WH06,Atlanta Southeast DC,Atlanta,GA,South,18000,Yes
