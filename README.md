@@ -32,16 +32,17 @@ The dataset is organized using fact and dimension tables:
 ## Dashboard Preview
 
 ### Cost Distribution by Product Category
-![Cost Distribution](images/cost%20distribution%20by%20product.png)
+![Cost Distribution](images/cost-distribution-by-product.png)
 
 ### Total Cost by Product Category
-![Cost by Category](images/cost%20by%20category.png)
+![Cost by Category](images/cost-by-category.png)
 
 ### Total Cost Trend Over Time
-![Cost Trend](images/total%20cost%20trend%20over%20time.png)
+![Cost Trend](images/total-cost-trend-over-time.png)
 
 ## Data Source
-![AWS S3 Bucket](images/aws%20s3%20bucket.png) 
+![AWS S3 Bucket](images/aws-s3-bucket.png)
+
 ---
 
 ## Key Insights
