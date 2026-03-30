@@ -1,0 +1,13 @@
+## Dashboard Preview
+
+### Cost Distribution by Product Category
+![Cost Distribution](images/cost distribution by product.png)
+
+### Total Cost by Product Category
+![Cost by Category](images/cost by category.png)
+
+### Total Cost Trend Over Time
+![Cost Trend](images/total cost trend over time.png)
+
+## Data Source (AWS S3)
+![AWS S3 Bucket](images/aws s3 bucket.png)
