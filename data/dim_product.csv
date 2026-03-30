@@ -1,1 +1,11 @@
-
+product_id,sku,product_name,category,subcategory,unit_cost,defect_flag,return_reason
+PROD001,LZB-RC-001,Pinnacle Power Recliner,Recliners,Power,649,N,
+PROD002,LZB-RC-002,Greyson Manual Recliner,Recliners,Manual,399,N,
+PROD003,LZB-SF-001,Collins Sofa,Sofas,Standard,1099,N,
+PROD004,LZB-SF-002,Bellamy Sectional,Sofas,Sectional,1799,Y,Cushion defect
+PROD005,LZB-CH-001,Asher Accent Chair,Chairs,Accent,499,N,
+PROD006,LZB-RC-003,Trouper Rocker Recliner,Recliners,Rocker,549,N,
+PROD007,LZB-OT-001,Edie Ottoman,Ottomans,Standard,229,N,
+PROD008,LZB-SF-003,Talbot Loveseat,Sofas,Loveseat,799,Y,Frame crack on delivery
+PROD009,LZB-RC-004,Apollo Lift Chair,Recliners,Lift,899,N,
+PROD010,LZB-BD-001,Whittle Sleep Sofa,Sofa Beds,Sleeper,1199,N,
